@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SevenTech</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Seven<span>Tech!</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Início</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#testimonials">Quem somos?</a></li>
+            <li><a href="#contact">Contato</a></li>
+            
+        </ul>
+        
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+    <h2>Para quem doar?</h2>
+       <h2> A SevenTech pode ajudar!</h2>
+    <p>
+        A nossa empresa pode te ajudar a encontrar um local com que você possa ajudar outras pessoas, salva-lás de perigos às suas vidas e poder mudar totalmente o rumo de suas hitórias.
+        Isso não é bem um site que você só ajuda, mas sentir que faz do mundo um lugar melhor <br>
+        Lembre-se: Juntos somos sempre mais fortes!
+    </p>
+    <a href="" class="bnt" id="">Sejam bem-vindos!</a>
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>S</span>obre Nós</h2>
+                <p>O que é a SevenTech? <br>
+                    A SevenTech é uma empresa que surge com o intuito de promover o sentimento de empatia e humanizar um pouco de nossas dores, que estão presentes em nosso cotidiano, mas nem sempre paramos para perceber ou se colocar no lugar. 
+                    Buscando fazer a conexão entre reflexão e ação para que um com um simples clique, o usuário consiga contribuir para causas sociais disponíveis no site.</p>
+        </div>
+        <div class="col50">
+            <div class="imgBx">
+                <img src="img1.jpg">
+                </div>
+                </div>
+                </div>
+
+    </section>
+    
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">Quem <span>S</span>omos?</h2>
+            <p>
+                <br>
+                Somos um grupo de 7 pessoas, atualmente, cursamos o técnico em desenvolvimento de sistemas, e visamos criar uma empresa para ações sociais de modo que cause um impacto de forma posivita na vida de cidadãos.
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi1.jpg">
+        </div>
+        <p>Desenvolvedor Front-End e Web-Desing</p>
+        <h3>Gabriel Ambrózio</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi2.jpg">
+        </div>
+        <p> CEO da empresa SevenTech e Analista de Sistemas
+        </p>
+        <h3>Luan Couto</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi3.jpg">
+        </div>
+        <p>Desenvolvedor Front-End e Analista de Códigos </p>
+        <h3>Diego Gomes</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi4.jpg">
+        </div>
+        <p>Designer Digital</p>
+        <h3>Isabelle Beltrão</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi5.jpg">
+        </div>
+        <p>Desenvolvedor Front-End e Analista de Códigos </p>
+        <h3>Isabelly Rodrigues</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi6.jpg">
+        </div>
+        <p>Desenvolvedor Back-End e Analista de Códigos </p>
+        <h3>Wendell Mendes</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="testi7.jpg">
+        </div>
+        <p>Administradora de Banco de Dados</p>
+        <h3>Juliana de Lima</h3>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText">Nos <span>C</span>ontate!</h2>
+            <p> Caso haja dúvidas, queixas ou contratos, contate-nos aqui:
+                <br>
+        
+            </p>
+        </div>
+        <div class="contactForm">
+            <br>
+            <h3>Fale <span>C</span>onosco!</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Nome">
+            </div>
+            <div class="contactForm">
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Assunto"></textarea>
+                </div>
+                <div class="inputBox">
+                    <button class="btnenviar" onclick="Enviar()">Enviar</button>
+                </div>
+                </div>
+                <div class="contactForm">
+                   
+        </div>
+        
+        </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+
+
+        });
+    </script>
+    <script>
+
+  function Enviar(){
+    alert("Enviado");
+}
+    </script>
+</body>
+</html>
